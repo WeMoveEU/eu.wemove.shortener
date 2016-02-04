@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/asdf</path>
+    <page_callback>CRM_Shortener_Page_Url</page_callback>
+    <page_arguments>u=%%u%%</page_arguments>
+    <title>Shortener</title>
+    <access_callback>1</access_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+    <is_public>true</is_public>
+    <is_ssl>false</is_ssl>
+  </item>
+</menu>
